@@ -6,9 +6,11 @@
 
 <script>
 import TheNavbar from '../components/TheNavbar.vue'
+import Tutorial from '../components/Tutorial.vue'
   export default {
     components: {
-      TheNavbar
+      TheNavbar,
+        Tutorial
     }
   }
 </script>
