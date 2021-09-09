@@ -8,7 +8,7 @@
           <h3>Posts you might enjoy</h3>
           <ul>
               <li v-for="related in relatedPosts">
-                  <a :href="`/post/${related.id}`">{{related.title}}</a>
+                  <nuxt-link :to="`/post/${related.id}`">{{related.title}}</nuxt-link>
               </li>
           </ul>
       </aside>
