@@ -1,7 +1,14 @@
 <template>
-  <Tutorial/>
+  <div class="container">
+    <TheNavbar />
+  </div>
 </template>
 
 <script>
-export default {}
+import TheNavbar from '../components/TheNavbar.vue'
+  export default {
+    components: {
+      TheNavbar
+    }
+  }
 </script>
